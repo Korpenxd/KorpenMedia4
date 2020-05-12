@@ -41,6 +41,12 @@ html, body {
 @media (max-width: 550px) {
   .showcase h1 {
     font-size: 2rem;
+    text-align: center;
+  }
+
+  .showcase h3 {
+    font-size: 1rem;
+    text-align: center;
   }
 }
 
@@ -65,6 +71,7 @@ html, body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .blog-container p {
@@ -82,7 +89,6 @@ html, body {
 .about {
   background: url(img/bakgrund.png);
   background-size: cover;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,7 +96,7 @@ html, body {
 }
 
 .aboutimg img {
-  height: 25rem;
+  max-height: 25rem;
   margin: 2rem 0;
   flex: 2;
   border: 3px #730000 solid;
@@ -98,7 +104,7 @@ html, body {
 
 .about-2 {
   display: flex;
-  margin: 0 auto;
+  margin: 2rem auto;
   color: #a8329d;
   border: 3px #730000 solid;
   padding: 1rem;
@@ -123,8 +129,12 @@ html, body {
 
 @media (max-width: 450px) {
   .aboutimg img {
-    height: auto;
-    width: 100%;
+    height: 12rem;
+  }
+
+  .about-2 {
+    flex-direction: column;
+    margin: 0 auto;
   }
 }
 
