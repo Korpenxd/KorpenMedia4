@@ -2,14 +2,14 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: arial, sans-serif;
-  background: url(img/blogbg2.jpg) no-repeat center center;
+  background: url(img/blogbg2.webp) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
 }
 
 /* Showcase */
 .showcase {
-  background: url(img/showcase.jpg) no-repeat center center;
+  background: url(img/showcase.webp) no-repeat center center;
   background-size: cover;
   height: 100vh;
   max-width: 100%;
@@ -87,7 +87,7 @@ html, body {
 
 /* About */
 .about {
-  background: url(img/bakgrund.png);
+  background: url(img/bakgrund.webp);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -213,7 +213,7 @@ text-align: center;
   font-weight: 100;
   letter-spacing: 0.04em;
   text-align: center;
-  background: url(img/bg1.jpg) no-repeat center;
+  background: url(img/bg1.webp) no-repeat center;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
 }
@@ -402,7 +402,7 @@ input[type=submit] {
 
 /* List */
 .list {
-  background: url(img/listbg2.jpg) no-repeat center center;
+  background: url(img/listbg2.webp) no-repeat center center;
   height: 100vh;
   display: flex;
   align-items: center;
